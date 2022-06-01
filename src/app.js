@@ -43,7 +43,7 @@ class App extends React.Component {
   render() {
     return (
       <>
-        <Routes>
+        {/* <Routes>
             <Route path='/editor' element={<EditorPage />} />
             <Route path='/saved' element={<SavedArticles />} />
             <Route path='/publish' element={<PublishArticle />} />
@@ -55,7 +55,8 @@ class App extends React.Component {
             <Route path='/panel/articleverification/homepage' element={<HomePageForArticalVerificationPanel authorized={this.state.authorised}/>} />
             <Route path='/panel/articleverification/articlepage' element={<ArticlePageForArticalVerificationPanel authorized={this.state.authorised} adminId={this.state.adminId}/>} />
 
-        </Routes>
+        </Routes> */}
+        ji
       </>
     );
   }
